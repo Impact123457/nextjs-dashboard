@@ -2,7 +2,7 @@ import { CalendarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchCardData } from '@/app/lib/data';
 
-export default async function RevenueGoalChart() {
+export default async function Progres() {
   const { totalPaidInvoices, totalPendingInvoices } = await fetchCardData();
 
   const goal = 5_000;
